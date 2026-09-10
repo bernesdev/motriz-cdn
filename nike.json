@@ -1,0 +1,387 @@
+{
+  "brand": "nike",
+  "themes": [
+    {
+      "name": "daybreak",
+      "default": true,
+      "colors": {
+        "primary": "#FFFFFFFF",
+        "secondary": "#FF5000FF",
+        "tertiary": "#EE0005FF",
+        "quaternary": "#11111121",
+        "quinary": "#FFFFFF1A"
+      },
+      "darkOverride": {}
+    },
+    {
+      "name": "nightfall",
+      "colors": {
+        "primary": "#000000FF",
+        "secondary": "#FF5000FF",
+        "tertiary": "#EE0005FF",
+        "quaternary": "#11111121",
+        "quinary": "#FFFFFF1A"
+      }
+    },
+    {
+      "name": "skims",
+      "colors": {
+        "primary": "#491F1AFF",
+        "secondary": "#C92E1BFF",
+        "tertiary": "#28201FFF",
+        "quaternary": "#11111121",
+        "quinary": "#FFFFFF1A"
+      }
+    },
+    {
+      "name": "football",
+      "colors": {
+        "primary": "#00023EFF",
+        "secondary": "#FF5000FF",
+        "tertiary": "#FF5000FF",
+        "quaternary": "#11111121",
+        "quinary": "#FFFFFF1A"
+      }
+    }
+  ],
+  "radius": {
+    "primary": 16,
+    "secondary": 1000
+  },
+  "height": {
+    "xLarge": 60,
+    "large": 48,
+    "medium": 36,
+    "small": 32,
+    "xSmall": 24,
+    "tiny": 16
+  },
+  "typography": {
+    "display": {
+      "large": {
+        "fontFamily": "Nike Futura ND",
+        "fontWeight": 800,
+        "fontSize": 48,
+        "letterSpacing": 0,
+        "lineHeight": 0.9
+      },
+      "medium": {
+        "fontFamily": "Nike Futura ND",
+        "fontWeight": 800,
+        "fontSize": 40,
+        "letterSpacing": 0,
+        "lineHeight": 0.9
+      },
+      "small": {
+        "fontFamily": "Nike Futura ND",
+        "fontWeight": 800,
+        "fontSize": 24,
+        "letterSpacing": 0,
+        "lineHeight": 0.9
+      }
+    },
+    "headings": {
+      "brand": {
+        "xLarge": {
+          "fontFamily": "Nike Futura ND",
+          "fontWeight": 600,
+          "fontSize": 48,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        },
+        "large": {
+          "fontFamily": "Nike Futura ND",
+          "fontWeight": 600,
+          "fontSize": 40,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        },
+        "medium": {
+          "fontFamily": "Nike Futura ND",
+          "fontWeight": 600,
+          "fontSize": 32,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        },
+        "small": {
+          "fontFamily": "Nike Futura ND",
+          "fontWeight": 600,
+          "fontSize": 24,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        },
+        "xSmall": {
+          "fontFamily": "Nike Futura ND",
+          "fontWeight": 600,
+          "fontSize": 20,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        }
+      },
+      "interface": {
+        "xLarge": {
+          "medium": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 48,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          },
+          "strong": {
+            "fontFamily": "Inter",
+            "fontWeight": 800,
+            "fontSize": 48,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          }
+        },
+        "large": {
+          "medium": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 40,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          },
+          "strong": {
+            "fontFamily": "Inter",
+            "fontWeight": 800,
+            "fontSize": 40,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          }
+        },
+        "medium": {
+          "medium": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 32,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          },
+          "strong": {
+            "fontFamily": "Inter",
+            "fontWeight": 800,
+            "fontSize": 32,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          }
+        },
+        "small": {
+          "medium": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 24,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          },
+          "strong": {
+            "fontFamily": "Inter",
+            "fontWeight": 800,
+            "fontSize": 24,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          }
+        },
+        "xSmall": {
+          "medium": {
+            "fontFamily": "Inter",
+            "fontWeight": 600,
+            "fontSize": 20,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          },
+          "strong": {
+            "fontFamily": "Inter",
+            "fontWeight": 800,
+            "fontSize": 20,
+            "letterSpacing": 0,
+            "lineHeight": 1.2
+          }
+        }
+      }
+    },
+    "body": {
+      "xLarge": {
+        "regular": {
+          "fontFamily": "Helvetica Now Display",
+          "fontWeight": 400,
+          "fontSize": 18,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Display",
+          "fontWeight": 700,
+          "fontSize": 18,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        }
+      },
+      "large": {
+        "regular": {
+          "fontFamily": "Helvetica Now Display",
+          "fontWeight": 400,
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Display",
+          "fontWeight": 700,
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        }
+      },
+      "medium": {
+        "regular": {
+          "fontFamily": "Helvetica Now Display",
+          "fontWeight": 400,
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Display",
+          "fontWeight": 700,
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        }
+      },
+      "small": {
+        "regular": {
+          "fontFamily": "Helvetica Now Display",
+          "fontWeight": 400,
+          "fontSize": 12,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Display",
+          "fontWeight": 700,
+          "fontSize": 12,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        }
+      }
+    },
+    "caption": {
+      "large": {
+        "regular": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 400,
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 700,
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        }
+      },
+      "medium": {
+        "regular": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 400,
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 700,
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        }
+      },
+      "small": {
+        "regular": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 400,
+          "fontSize": 12,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 700,
+          "fontSize": 12,
+          "letterSpacing": 0,
+          "lineHeight": 1.5
+        }
+      }
+    },
+    "label": {
+      "xLarge": {
+        "regular": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 400,
+          "fontSize": 18,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 700,
+          "fontSize": 18,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        }
+      },
+      "large": {
+        "regular": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 400,
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 700,
+          "fontSize": 16,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        }
+      },
+      "medium": {
+        "regular": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 400,
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 600,
+          "fontSize": 14,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        }
+      },
+      "small": {
+        "regular": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 400,
+          "fontSize": 12,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        },
+        "strong": {
+          "fontFamily": "Helvetica Now Text",
+          "fontWeight": 600,
+          "fontSize": 12,
+          "letterSpacing": 0,
+          "lineHeight": 1.2
+        }
+      }
+    }
+  }
+}
