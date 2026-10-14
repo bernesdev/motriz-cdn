@@ -1,387 +1,350 @@
 {
   "brand": "nike",
+  "typography": {
+    "font": {
+      "primary": "HelveticaNowDisplay",
+      "accent": "NikeFuturaND",
+      "support": "HelveticaNowText"
+    },
+    "weight": {
+      "display": {
+        "strong": 800
+      },
+      "heading": {
+        "medium": 500,
+        "strong": 500,
+        "brand": 800
+      },
+      "body": {
+        "regular": 400,
+        "strong": 500
+      },
+      "label": {
+        "regular": 400,
+        "strong": 500
+      }
+    },
+    "textCase": {
+      "accent": "upper"
+    }
+  },
   "themes": [
     {
       "name": "daybreak",
       "default": true,
       "colors": {
-        "primary": "#FFFFFFFF",
-        "secondary": "#FF5000FF",
-        "tertiary": "#EE0005FF",
-        "quaternary": "#11111121",
-        "quinary": "#FFFFFF1A"
+        "action": {
+          "primary": {
+            "background": "#111111FF",
+            "foreground": "#FFFFFFFF"
+          },
+          "secondary": {
+            "foreground": "#111111FF",
+            "border": "#111111FF"
+          },
+          "ghost": {
+            "foreground": "#111111FF"
+          },
+          "inverted": {
+            "background": "#FFFFFFFF",
+            "foreground": "#111111FF"
+          },
+          "outlineLight": {
+            "foreground": "#111111FF",
+            "border": "#0000001F"
+          },
+          "accent": {
+            "background": "#1111111F",
+            "foreground": "#111111FF"
+          },
+          "glass": {
+            "background": "#FFFFFF8F"
+          }
+        },
+        "state": {
+          "pressed": "#1111111F",
+          "pressedOnDark": "#FFFFFF29",
+          "pressedOnLight": "#0000001F"
+        },
+        "background": {
+          "default": "#FFFFFFFF",
+          "disabled": "#F5F5F5FF"
+        },
+        "text": {
+          "primary": "#111111FF",
+          "secondary": "#4B4B4DFF",
+          "auxiliar": "#707072FF",
+          "disabled": "#9E9EA0FF"
+        },
+        "border": {
+          "default": "#CACACBFF",
+          "strong": "#707072FF",
+          "focus": "#1151FFFF",
+          "focusHalo": "#FFFFFFFF",
+          "disabled": "#E5E5E5FF"
+        },
+        "feedback": {
+          "error": {
+            "onSurface": "#A70E00FF"
+          },
+          "success": {
+            "onSurface": "#15803DFF"
+          }
+        }
       },
-      "darkOverride": {}
+      "component": {
+        "button": {
+          "radius": 1000
+        },
+        "field": {
+          "background": {
+            "filled": "#F5F5F5FF",
+            "error": "#FFE5E5FF",
+            "success": "#F0FDF4FF"
+          }
+        }
+      }
     },
     {
       "name": "nightfall",
       "colors": {
-        "primary": "#000000FF",
-        "secondary": "#FF5000FF",
-        "tertiary": "#EE0005FF",
-        "quaternary": "#11111121",
-        "quinary": "#FFFFFF1A"
+        "action": {
+          "primary": {
+            "background": "#FFFFFFFF",
+            "foreground": "#111111FF"
+          },
+          "secondary": {
+            "foreground": "#FFFFFFFF",
+            "border": "#FFFFFFFF"
+          },
+          "ghost": {
+            "foreground": "#FFFFFFFF"
+          },
+          "inverted": {
+            "background": "#111111FF",
+            "foreground": "#FFFFFFFF"
+          },
+          "outlineLight": {
+            "foreground": "#FFFFFFFF",
+            "border": "#FFFFFF29"
+          },
+          "accent": {
+            "background": "#FF5000FF",
+            "foreground": "#111111FF"
+          },
+          "glass": {
+            "background": "#FFFFFF1F"
+          }
+        },
+        "state": {
+          "pressed": "#FFFFFF1F",
+          "pressedOnDark": "#FFFFFF29",
+          "pressedOnLight": "#0000001F"
+        },
+        "background": {
+          "default": "#000000FF",
+          "disabled": "#00000000"
+        },
+        "text": {
+          "primary": "#FFFFFFFF",
+          "secondary": "#FFFFFFB2",
+          "auxiliar": "#FFFFFF8F",
+          "disabled": "#FFFFFF52"
+        },
+        "border": {
+          "default": "#FFFFFF29",
+          "strong": "#FFFFFF52",
+          "focus": "#1151FFFF",
+          "focusHalo": "#FFFFFFFF",
+          "disabled": "#FFFFFF29"
+        },
+        "feedback": {
+          "error": {
+            "onSurface": "#FFABADFF"
+          },
+          "success": {
+            "onSurface": "#86EFACFF"
+          }
+        }
+      },
+      "component": {
+        "button": {
+          "radius": 1000
+        },
+        "field": {
+          "background": {
+            "filled": "#111111FF",
+            "error": "#EE000529",
+            "success": "#22C55E29"
+          }
+        }
       }
     },
     {
       "name": "skims",
       "colors": {
-        "primary": "#491F1AFF",
-        "secondary": "#C92E1BFF",
-        "tertiary": "#28201FFF",
-        "quaternary": "#11111121",
-        "quinary": "#FFFFFF1A"
+        "action": {
+          "primary": {
+            "background": "#A89687FF",
+            "foreground": "#28201FFF"
+          },
+          "secondary": {
+            "foreground": "#FFFFFFFF",
+            "border": "#FFFFFFFF"
+          },
+          "ghost": {
+            "foreground": "#A89687FF"
+          },
+          "inverted": {
+            "background": "#28201FFF",
+            "foreground": "#A89687FF"
+          },
+          "outlineLight": {
+            "foreground": "#A89687FF",
+            "border": "#FFFFFF29"
+          },
+          "accent": {
+            "background": "#FFFFFFFF",
+            "foreground": "#111111FF"
+          },
+          "glass": {
+            "background": "#FFFFFF1F"
+          }
+        },
+        "state": {
+          "pressed": "#A896871F",
+          "pressedOnDark": "#FFFFFF29",
+          "pressedOnLight": "#0000001F"
+        },
+        "background": {
+          "default": "#491F1AFF",
+          "disabled": "#00000000"
+        },
+        "text": {
+          "primary": "#FFFFFFFF",
+          "secondary": "#FFFFFFB2",
+          "auxiliar": "#FFFFFF8F",
+          "disabled": "#FFFFFF52"
+        },
+        "border": {
+          "default": "#FFFFFF29",
+          "strong": "#FFFFFF52",
+          "focus": "#4CABFFFF",
+          "focusHalo": "#FFFFFFFF",
+          "disabled": "#FFFFFF29"
+        },
+        "feedback": {
+          "error": {
+            "onSurface": "#FFABADFF"
+          },
+          "success": {
+            "onSurface": "#86EFACFF"
+          }
+        }
+      },
+      "component": {
+        "button": {
+          "radius": 1000
+        },
+        "field": {
+          "background": {
+            "filled": "#443D3CFF",
+            "error": "#EE000529",
+            "success": "#22C55E29"
+          }
+        }
+      },
+      "typography": {
+        "font": {
+          "accent": "Palatino"
+        },
+        "weight": {
+          "display": {
+            "strong": 400
+          },
+          "heading": {
+            "brand": 400
+          }
+        },
+        "textCase": {
+          "accent": "original"
+        }
       }
     },
     {
       "name": "football",
       "colors": {
-        "primary": "#00023EFF",
-        "secondary": "#FF5000FF",
-        "tertiary": "#FF5000FF",
-        "quaternary": "#11111121",
-        "quinary": "#FFFFFF1A"
-      }
-    }
-  ],
-  "radius": {
-    "primary": 16,
-    "secondary": 1000
-  },
-  "height": {
-    "xLarge": 60,
-    "large": 48,
-    "medium": 36,
-    "small": 32,
-    "xSmall": 24,
-    "tiny": 16
-  },
-  "typography": {
-    "display": {
-      "large": {
-        "fontFamily": "Nike Futura ND",
-        "fontWeight": 800,
-        "fontSize": 48,
-        "letterSpacing": 0,
-        "lineHeight": 0.9
-      },
-      "medium": {
-        "fontFamily": "Nike Futura ND",
-        "fontWeight": 800,
-        "fontSize": 40,
-        "letterSpacing": 0,
-        "lineHeight": 0.9
-      },
-      "small": {
-        "fontFamily": "Nike Futura ND",
-        "fontWeight": 800,
-        "fontSize": 24,
-        "letterSpacing": 0,
-        "lineHeight": 0.9
-      }
-    },
-    "headings": {
-      "brand": {
-        "xLarge": {
-          "fontFamily": "Nike Futura ND",
-          "fontWeight": 600,
-          "fontSize": 48,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        },
-        "large": {
-          "fontFamily": "Nike Futura ND",
-          "fontWeight": 600,
-          "fontSize": 40,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        },
-        "medium": {
-          "fontFamily": "Nike Futura ND",
-          "fontWeight": 600,
-          "fontSize": 32,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        },
-        "small": {
-          "fontFamily": "Nike Futura ND",
-          "fontWeight": 600,
-          "fontSize": 24,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        },
-        "xSmall": {
-          "fontFamily": "Nike Futura ND",
-          "fontWeight": 600,
-          "fontSize": 20,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        }
-      },
-      "interface": {
-        "xLarge": {
-          "medium": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 48,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
+        "action": {
+          "primary": {
+            "background": "#FFFFFFFF",
+            "foreground": "#111111FF"
           },
-          "strong": {
-            "fontFamily": "Inter",
-            "fontWeight": 800,
-            "fontSize": 48,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
+          "secondary": {
+            "foreground": "#FFFFFFFF",
+            "border": "#FFFFFFFF"
+          },
+          "ghost": {
+            "foreground": "#FFFFFFFF"
+          },
+          "inverted": {
+            "background": "#111111FF",
+            "foreground": "#FFFFFFFF"
+          },
+          "outlineLight": {
+            "foreground": "#FFFFFFFF",
+            "border": "#FFFFFF29"
+          },
+          "accent": {
+            "background": "#DCFE70FF",
+            "foreground": "#111111FF"
+          },
+          "glass": {
+            "background": "#FFFFFF1F"
           }
         },
-        "large": {
-          "medium": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 40,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
-          },
-          "strong": {
-            "fontFamily": "Inter",
-            "fontWeight": 800,
-            "fontSize": 40,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
-          }
+        "state": {
+          "pressed": "#FFFFFF1F",
+          "pressedOnDark": "#FFFFFF29",
+          "pressedOnLight": "#0000001F"
         },
-        "medium": {
-          "medium": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 32,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
-          },
-          "strong": {
-            "fontFamily": "Inter",
-            "fontWeight": 800,
-            "fontSize": 32,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
-          }
+        "background": {
+          "default": "#00023EFF",
+          "disabled": "#00000000"
         },
-        "small": {
-          "medium": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 24,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
-          },
-          "strong": {
-            "fontFamily": "Inter",
-            "fontWeight": 800,
-            "fontSize": 24,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
-          }
+        "text": {
+          "primary": "#FFFFFFFF",
+          "secondary": "#FFFFFFB2",
+          "auxiliar": "#FFFFFF8F",
+          "disabled": "#FFFFFF52"
         },
-        "xSmall": {
-          "medium": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 20,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
+        "border": {
+          "default": "#FFFFFF29",
+          "strong": "#FFFFFF52",
+          "focus": "#1151FFFF",
+          "focusHalo": "#FFFFFFFF",
+          "disabled": "#FFFFFF29"
+        },
+        "feedback": {
+          "error": {
+            "onSurface": "#FFABADFF"
           },
-          "strong": {
-            "fontFamily": "Inter",
-            "fontWeight": 800,
-            "fontSize": 20,
-            "letterSpacing": 0,
-            "lineHeight": 1.2
+          "success": {
+            "onSurface": "#86EFACFF"
           }
         }
-      }
-    },
-    "body": {
-      "xLarge": {
-        "regular": {
-          "fontFamily": "Helvetica Now Display",
-          "fontWeight": 400,
-          "fontSize": 18,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Display",
-          "fontWeight": 700,
-          "fontSize": 18,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        }
       },
-      "large": {
-        "regular": {
-          "fontFamily": "Helvetica Now Display",
-          "fontWeight": 400,
-          "fontSize": 16,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
+      "component": {
+        "button": {
+          "radius": 8
         },
-        "strong": {
-          "fontFamily": "Helvetica Now Display",
-          "fontWeight": 700,
-          "fontSize": 16,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        }
-      },
-      "medium": {
-        "regular": {
-          "fontFamily": "Helvetica Now Display",
-          "fontWeight": 400,
-          "fontSize": 14,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Display",
-          "fontWeight": 700,
-          "fontSize": 14,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        }
-      },
-      "small": {
-        "regular": {
-          "fontFamily": "Helvetica Now Display",
-          "fontWeight": 400,
-          "fontSize": 12,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Display",
-          "fontWeight": 700,
-          "fontSize": 12,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        }
-      }
-    },
-    "caption": {
-      "large": {
-        "regular": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 400,
-          "fontSize": 16,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 700,
-          "fontSize": 16,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        }
-      },
-      "medium": {
-        "regular": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 400,
-          "fontSize": 14,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 700,
-          "fontSize": 14,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        }
-      },
-      "small": {
-        "regular": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 400,
-          "fontSize": 12,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 700,
-          "fontSize": 12,
-          "letterSpacing": 0,
-          "lineHeight": 1.5
-        }
-      }
-    },
-    "label": {
-      "xLarge": {
-        "regular": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 400,
-          "fontSize": 18,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 700,
-          "fontSize": 18,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        }
-      },
-      "large": {
-        "regular": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 400,
-          "fontSize": 16,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 700,
-          "fontSize": 16,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        }
-      },
-      "medium": {
-        "regular": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 400,
-          "fontSize": 14,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 600,
-          "fontSize": 14,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        }
-      },
-      "small": {
-        "regular": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 400,
-          "fontSize": 12,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
-        },
-        "strong": {
-          "fontFamily": "Helvetica Now Text",
-          "fontWeight": 600,
-          "fontSize": 12,
-          "letterSpacing": 0,
-          "lineHeight": 1.2
+        "field": {
+          "background": {
+            "filled": "#0C114CFF",
+            "error": "#EE000529",
+            "success": "#22C55E29"
+          }
         }
       }
     }
-  }
+  ]
 }
